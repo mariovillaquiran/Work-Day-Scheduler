@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,7 +29,15 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks go here - how do you split a row/column-->
+      <div id="hour-9" class="row">
+        <div class="col-md-1 time-block">9</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn col-md-1 saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!-- repeat until 9 to 5 -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

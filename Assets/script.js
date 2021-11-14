@@ -13,3 +13,17 @@ localStorage.setItem(value,time)
 })
 
 //add if else statement to compare the current hour with the hour block to add a class from css or remove class from css
+function time() {
+    if (currenthour.textContent = time) {
+        setAttribute("present")
+     }
+     if (currenthour.textContent <= time) {
+        setAttribute("future")
+    }
+    
+    if (currenthour.textContent >= time) {
+        setAttribute("past")
+    }
+}
+
+
